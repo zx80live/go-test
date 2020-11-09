@@ -1,11 +1,8 @@
 package main
 
 import "fmt"
-
-func SayHello(){
-  fmt.Println("Hello, World!")
-}
+import "github.com/zx80live/go-test/greetings"
 
 func main() {
-  SayHello()
+  fmt.Println(greetings.SayGreeting())
 }
